@@ -52,9 +52,10 @@
     "prisma": "^6.16.2",
     "twilio": "^5.5.0",
     "uuid": "^9.0.1",
-    "vue": "^3.5.0",
+    "vue": "^3.5.22",
     "vue-chartjs": "^5.3.2",
     "vue-i18n": "^9.9.0",
+    "vue-router": "^4.5.1",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {

@@ -4,25 +4,7 @@ import type { Defu } from 'defu'
 
 
 declare const inlineConfig = {
-  "nuxt": {},
-  "icon": {
-    "provider": "server",
-    "class": "",
-    "aliases": {},
-    "iconifyApiEndpoint": "https://api.iconify.design",
-    "localApiEndpoint": "/api/_nuxt_icon",
-    "fallbackToApi": true,
-    "cssSelectorPrefix": "i-",
-    "cssWherePseudo": true,
-    "mode": "css",
-    "attrs": {
-      "aria-hidden": true
-    },
-    "collections": [
-      "material-symbols"
-    ],
-    "fetchTimeout": 1500
-  }
+  "nuxt": {}
 }
 type ResolvedAppConfig = Defu<typeof inlineConfig, []>
 type IsAny<T> = 0 extends 1 & T ? true : false

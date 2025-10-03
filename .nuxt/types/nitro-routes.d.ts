@@ -216,6 +216,9 @@ declare module "nitropack/types" {
     '/api/sitemap.xml': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/sitemap.xml.get').default>>>>
     }
+    '/api/test-simple': {
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/test-simple.get').default>>>>
+    }
     '/api/test': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/test.get').default>>>>
     }
@@ -233,24 +236,6 @@ declare module "nitropack/types" {
     }
     '/__nuxt_error': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt/dist/core/runtime/nitro/handlers/renderer').default>>>>
-    }
-    '/sitemap_index.xml': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-simple-sitemap/dist/runtime/routes/sitemap_index.xml').default>>>>
-    }
-    '/en-US-sitemap.xml': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-simple-sitemap/dist/runtime/middleware/[sitemap]-sitemap.xml').default>>>>
-    }
-    '/ar-SA-sitemap.xml': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-simple-sitemap/dist/runtime/middleware/[sitemap]-sitemap.xml').default>>>>
-    }
-    '/__sitemap__/style.xsl': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-simple-sitemap/dist/runtime/routes/sitemap.xsl').default>>>>
-    }
-    '/sitemap.xml': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-simple-sitemap/dist/runtime/routes/sitemap.xml').default>>>>
-    }
-    '/api/_nuxt_icon/:collection': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/icon/dist/runtime/server/api').default>>>>
     }
     '/_ipx/**': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/image/dist/runtime/ipx').default>>>>
