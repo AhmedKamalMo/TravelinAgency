@@ -29,6 +29,9 @@
     "insert-sample-data": "node scripts/insert-sample-data.js",
     "migrate-images": "node scripts/migrate-package-images.js"
   },
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "dependencies": {
     "@nuxt/icon": "^1.11.0",
     "@nuxtjs/i18n": "^8.0.0",
