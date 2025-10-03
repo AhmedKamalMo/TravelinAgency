@@ -71,7 +71,6 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@types/node": "^22.13.9",
     "@types/uuid": "^9.0.8",
-    "@types/vue": "^2.0.0",
     "compression": "^1.7.5",
     "dotenv": "^16.4.7",
     "sharp": "^0.33.5",
