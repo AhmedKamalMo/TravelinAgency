@@ -70,6 +70,12 @@
       "vite/client": [
         "../node_modules/vite/client"
       ],
+      "estree-walker": [
+        "../node_modules/mocked-exports/lib/proxy"
+      ],
+      "@babel/parser": [
+        "../node_modules/mocked-exports/lib/proxy"
+      ],
       "#shared": [
         "../shared"
       ],

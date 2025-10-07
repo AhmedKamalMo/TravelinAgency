@@ -48,6 +48,10 @@
     "lucide-vue-next": "^0.475.0",
     "mysql2": "^3.15.0",
     "nuxt": "^3.16.2",
+    "vue": "^3.4.15",
+    "@vue/server-renderer": "^3.4.15",
+    "@vue/shared": "^3.4.15",
+    "vue-router": "^4.2.5",
     "nuxt-aos": "^1.2.5",
     "nuxt-schema-org": "^3.3.4",
     "nuxt-simple-sitemap": "^4.4.1",
@@ -55,10 +59,8 @@
     "prisma": "^6.16.2",
     "twilio": "^5.5.0",
     "uuid": "^9.0.1",
-    "vue": "^3.5.22",
     "vue-chartjs": "^5.3.2",
     "vue-i18n": "^9.9.0",
-    "vue-router": "^4.5.1",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
